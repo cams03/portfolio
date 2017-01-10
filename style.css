@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Beauty";
+    src=url("Beauty.ttf");
+}
+
 body {
     margin: 0;
     background-image: url("ble.jpg");
@@ -11,18 +16,27 @@ div {
     height: 700px;
 }
 
-p {
+.rond {
+    width: 50%;
+    height: 600px;
     margin: auto;
-    border: 5px solid white;
-    border-radius: 100%;
-    box-shadow: 5px, 5px, 5px;
     padding: 8%;
+    box-sizing: border-box;
+    border: 10px double white;
+    border-radius: 100%;
+}
+
+.rond p {
+    margin: auto;
+    margin-bottom: 0;
+    font-family: "Beauty";
     color: white;
-    font-size: 180px;
+    font-size: 140px;
     text-align: center;
 }
 
 .name {
-    font-size: 30px;
+    margin-top: 0;
+    font-size: 25px;
     font-weight: bold;
 }
