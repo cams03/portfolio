@@ -27,4 +27,9 @@ $(document).ready(function () {
         $(".blocCV").fadeOut(0100);
         $(".rond").fadeIn(0300);
     })
+
+    $(".div_title").click(function () {
+        $(".div_title").fadeOut("slow");
+        $(".ul_formation").fadeIn(0100);
+    })
 })

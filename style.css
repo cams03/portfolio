@@ -3,6 +3,11 @@
     src: url("mark_my_words.ttf");
 }
 
+@font-face {
+    font-family: "Always";
+    src: url("always_forever_bold.ttf");
+}
+
 body {
     margin: 0;
     background-image: url("ble.jpg");
@@ -92,6 +97,19 @@ strong {
     width: 25%;
     height: 80vh;
     border: 1px solid black;
+    padding: 2%;
+}
+
+.title {
+    font-family: "Mark my words";
+    text-align: center;
+    font-size: 60px;
+}
+
+.intro {
+    font-family: "Always";
+    text-align: center;
+    font-size: 50px;
 }
 
 .right_column {
@@ -107,14 +125,26 @@ strong {
     width: 45%;
     height: 300px;
     border: 2px solid red;
+    padding: 2%;
 }
 
-.right_column p {
-    width: 25%;
+.right_column .up_arrow {
+    width: 7%;
     height: 100px;
     align-self: flex-end;
-    border: 2px solid black;
     font-size: 80px;
     color: black;
     text-align: center;
+}
+
+.right_column .up_arrow:hover {
+    transform: scale(1.4);
+    cursor: pointer;
+}
+
+.ul_formation {
+    display: none;
+    font-family: "Always";
+    text-align: center;
+    font-size: 30px;
 }
