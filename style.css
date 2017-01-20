@@ -37,7 +37,8 @@ li {
     margin-top: 4%;
 }
 
-button {
+button,
+a {
     position: absolute;
     border: 1px solid grey;
     border-radius: 7%;
@@ -78,7 +79,7 @@ button:hover {
     margin: auto;
     font-family: "Mark my words";
     color: white;
-    text-shadow: 1px 1px 2px grey;
+    text-shadow: 1px 1px 2px black;
     font-size: 60px;
     text-align: center;
 }
@@ -229,4 +230,17 @@ button:hover {
 .blocPro .close,
 .right_column p {
     color: white;
+}
+
+.blocPro a {
+    display: none;
+    left: 2%;
+    bottom: 2%;
+    text-decoration: none;
+    color: white;
+}
+
+.blocPro a:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
 }
