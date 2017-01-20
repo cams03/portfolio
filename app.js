@@ -75,7 +75,7 @@ $(document).ready(function () {
     $(".skills").find(".close").click(function () {
         $(".skills").find(".title").fadeIn("slow");
         $(".skills").find(".more").fadeIn("slow");
-        $(".ul_skills").fadeOut(0100);
+        $(".ul_skills").fadeOut(0010);
         $(".skills").find(".close").fadeOut("slow");
     })
 
@@ -94,7 +94,7 @@ $(document).ready(function () {
         $(".projet_xy").find(".title").fadeIn("slow");
         $(".projet_xy").find(".more").fadeIn("slow");
         $(".xy_p").fadeOut(0100);
-        $(".projet_xy").find("a").fadeOut("slow");
+        $(".projet_xy").find("a").fadeOut(0100);
 
         $(".projet_xy").find(".close").fadeOut("slow");
         $(".projet_xy").css("background-image", "none");
@@ -112,7 +112,7 @@ $(document).ready(function () {
         $(".projet_gestionnaire").find(".title").fadeIn("slow");
         $(".projet_gestionnaire").find(".more").fadeIn("slow");
         $(".gestionnaire_p").fadeOut(0100);
-        $(".projet_gestionnaire").find("a").fadeOut("slow");
+        $(".projet_gestionnaire").find("a").fadeOut(0100);
         $(".projet_gestionnaire").find(".close").fadeOut("slow");
         $(".projet_gestionnaire").css("background-image", "none");
     })
