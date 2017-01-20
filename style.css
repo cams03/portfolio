@@ -18,7 +18,32 @@ strong {
     font-size: 90px;
 }
 
-.container {
+ul {
+    display: none;
+    font-family: "Always";
+    text-align: justify;
+    font-size: 30px;
+    list-style-type: circle;
+}
+
+button {
+    position: absolute;
+    border: 1px solid grey;
+    border-radius: 7%;
+    box-shadow: 1px 1px 2px grey;
+    padding: 2%;
+    background: none;
+    cursor: pointer;
+    font-family: "Always";
+    font-size: 30px;
+}
+
+button:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+#container {
     display: flex;
     flex-direction: column;
     border: 2px solid white;
@@ -60,6 +85,10 @@ strong {
     font-family: "Mark my words";
 }
 
+.container_rubriques div {
+    font-size: 40px;
+}
+
 .arrow {
     font-size: 80px;
 }
@@ -67,10 +96,6 @@ strong {
 .arrow:hover {
     transform: scale(1.4);
     cursor: pointer;
-}
-
-.container_rubriques div {
-    font-size: 40px;
 }
 
 .cv {
@@ -93,10 +118,12 @@ strong {
     opacity: 0.5;
 }
 
+
+/*-----------------SECTION CV-------------*/
+
 .left_column {
     width: 25%;
-    height: 80vh;
-    border: 1px solid black;
+    height: 60vh;
     padding: 2%;
 }
 
@@ -104,6 +131,7 @@ strong {
     font-family: "Mark my words";
     text-align: center;
     font-size: 60px;
+    font-weight: normal;
 }
 
 .intro {
@@ -118,78 +146,55 @@ strong {
     justify-content: space-around;
     width: 75%;
     height: 80vh;
-    border: 1px solid green;
 }
 
 .right_column div {
     width: 45%;
     height: 300px;
-    border: 2px solid red;
+    position: relative;
+    margin-top: 2%;
     padding: 2%;
+    border: 1px dotted grey;
+}
+
+.right_column div:hover {
+    background-color: antiquewhite;
+}
+
+.right_column .skills {
+    height: 200px;
 }
 
 .right_column .up_arrow {
-    width: 7%;
-    height: 100px;
-    align-self: flex-end;
-    font-size: 80px;
+    bottom: 5%;
+    right: 5%;
+    padding: 0;
+    font-size: 60px;
     color: black;
     text-align: center;
 }
 
 .right_column .up_arrow:hover {
-    transform: scale(1.4);
+    transform: scale(1.2);
     cursor: pointer;
+    text-decoration: none;
 }
 
-.right_column h3 {
-    font-weight: normal;
-}
-
-.right_column h3:hover {
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.ul_formation,
-.ul_exp {
-    display: none;
-    font-family: "Always";
-    text-align: justify;
-    font-size: 30px;
-    list-style-type: circle;
-}
-
-.formation,
-.exp {
-    position: relative;
-}
-
-.close {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    display: none;
+.ul_skills {
+    font-size: 40px;
 }
 
 .more {
-    position: absolute;
     right: 40%;
     bottom: 40%;
 }
 
-button {
-    border: 1px solid grey;
-    border-radius: 7%;
-    box-shadow: 1px 1px 2px grey;
-    padding: 2%;
-    background: none;
-    cursor: pointer;
-    font-family: "Always";
-    font-size: 30px;
+.skills .more {
+    bottom: 20%;
 }
 
-button:hover {
-    text-decoration: underline;
-    transform: scale(1.2);
+.close {
+    right: 2%;
+    bottom: 2%;
+    display: none;
 }

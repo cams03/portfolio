@@ -24,10 +24,10 @@ $(document).ready(function () {
     })
 
     $(".up_arrow").click(function () {
-        $(".blocCV").fadeOut(0100);
-        $(".rond").fadeIn(0300);
-    })
-
+            $(".blocCV").fadeOut(0100);
+            $(".rond").fadeIn(0300);
+        })
+        //Section FORMATION
     $(".formation").find(".more").click(function () {
         $(".formation").find(".title").fadeOut(0100);
         $(".formation").find(".more").fadeOut(0100);
@@ -35,12 +35,12 @@ $(document).ready(function () {
         $(".formation").find(".close").fadeIn("slow");
     })
     $(".formation").find(".close").click(function () {
-        $(".formation").find(".title").fadeIn("slow");
-        $(".formation").find(".more").fadeIn("slow");
-        $(".ul_formation").fadeOut(0100);
-        $(".formation").find(".close").fadeOut("slow");
-    })
-
+            $(".formation").find(".title").fadeIn("slow");
+            $(".formation").find(".more").fadeIn("slow");
+            $(".ul_formation").fadeOut(0100);
+            $(".formation").find(".close").fadeOut("slow");
+        })
+        //Section EXPERIENCE
     $(".exp").find(".more").click(function () {
         $(".exp").find(".title").fadeOut(0100);
         $(".exp").find(".more").fadeOut(0100);
@@ -49,10 +49,23 @@ $(document).ready(function () {
     })
 
     $(".exp").find(".close").click(function () {
-        $(".exp").find(".title").fadeIn("slow");
-        $(".exp").find(".more").fadeIn("slow");
-        $(".ul_exp").fadeOut(0100);
-        $(".exp").find(".close").fadeOut("slow");
+            $(".exp").find(".title").fadeIn("slow");
+            $(".exp").find(".more").fadeIn("slow");
+            $(".ul_exp").fadeOut(0100);
+            $(".exp").find(".close").fadeOut("slow");
+        })
+        //Section COMPETENCES
+    $(".skills").find(".more").click(function () {
+        $(".skills").find(".title").fadeOut(0100);
+        $(".skills").find(".more").fadeOut(0100);
+        $(".ul_skills").fadeIn("slow");
+        $(".skills").find(".close").fadeIn("slow");
     })
 
+    $(".skills").find(".close").click(function () {
+        $(".skills").find(".title").fadeIn("slow");
+        $(".skills").find(".more").fadeIn("slow");
+        $(".ul_skills").fadeOut(0100);
+        $(".skills").find(".close").fadeOut("slow");
+    })
 })
