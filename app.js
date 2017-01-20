@@ -1,4 +1,7 @@
 $(document).ready(function () {
+
+    //HOMEPAGE
+
     $(".left_arrow").click(function () {
         $(".rond").fadeOut(0100);
         $(".blocPro").fadeOut(0300);
@@ -24,10 +27,12 @@ $(document).ready(function () {
     })
 
     $(".up_arrow").click(function () {
-            $(".blocCV").fadeOut(0100);
-            $(".rond").fadeIn(0300);
-        })
-        //Section FORMATION
+        $(".blocCV").fadeOut(0100);
+        $(".rond").fadeIn(0300);
+    })
+
+    //Section FORMATION
+
     $(".formation").find(".more").click(function () {
         $(".formation").find(".title").fadeOut(0100);
         $(".formation").find(".more").fadeOut(0100);
@@ -35,12 +40,14 @@ $(document).ready(function () {
         $(".formation").find(".close").fadeIn("slow");
     })
     $(".formation").find(".close").click(function () {
-            $(".formation").find(".title").fadeIn("slow");
-            $(".formation").find(".more").fadeIn("slow");
-            $(".ul_formation").fadeOut(0100);
-            $(".formation").find(".close").fadeOut("slow");
-        })
-        //Section EXPERIENCE
+        $(".formation").find(".title").fadeIn("slow");
+        $(".formation").find(".more").fadeIn("slow");
+        $(".ul_formation").fadeOut(0100);
+        $(".formation").find(".close").fadeOut("slow");
+    })
+
+    //Section EXPERIENCE
+
     $(".exp").find(".more").click(function () {
         $(".exp").find(".title").fadeOut(0100);
         $(".exp").find(".more").fadeOut(0100);
@@ -49,12 +56,14 @@ $(document).ready(function () {
     })
 
     $(".exp").find(".close").click(function () {
-            $(".exp").find(".title").fadeIn("slow");
-            $(".exp").find(".more").fadeIn("slow");
-            $(".ul_exp").fadeOut(0100);
-            $(".exp").find(".close").fadeOut("slow");
-        })
-        //Section COMPETENCES
+        $(".exp").find(".title").fadeIn("slow");
+        $(".exp").find(".more").fadeIn("slow");
+        $(".ul_exp").fadeOut(0100);
+        $(".exp").find(".close").fadeOut("slow");
+    })
+
+    //Section COMPETENCES
+
     $(".skills").find(".more").click(function () {
         $(".skills").find(".title").fadeOut(0100);
         $(".skills").find(".more").fadeOut(0100);
@@ -67,5 +76,35 @@ $(document).ready(function () {
         $(".skills").find(".more").fadeIn("slow");
         $(".ul_skills").fadeOut(0100);
         $(".skills").find(".close").fadeOut("slow");
+    })
+
+    //SECTION PROJETS
+
+    $(".projet_xy").find(".more").click(function () {
+        $(".projet_xy").find(".title").fadeOut(0100);
+        $(".projet_xy").find(".more").fadeOut(0100);
+        $(".xy_p").fadeIn("slow");
+        $(".projet_xy").find(".close").fadeIn("slow");
+        $(".projey_xy").css("background-image", "url('espace.jpg')");
+    })
+
+    $(".projet_xy").find(".close").click(function () {
+        $(".projet_xy").find(".title").fadeIn("slow");
+        $(".projet_xy").find(".more").fadeIn("slow");
+        $(".xy_p").fadeOut(0100);
+        $(".projet_xy").find(".close").fadeOut("slow");
+    })
+    $(".projet_gestionnaire").find(".more").click(function () {
+        $(".projet_gestionnaire").find(".title").fadeOut(0100);
+        $(".projet_gestionnaire").find(".more").fadeOut(0100);
+        $(".gestionnaire_p").fadeIn("slow");
+        $(".projet_gestionnaire").find(".close").fadeIn("slow");
+    })
+
+    $(".projet_gestionnaire").find(".close").click(function () {
+        $(".projet_gestionnaire").find(".title").fadeIn("slow");
+        $(".projet_gestionnaire").find(".more").fadeIn("slow");
+        $(".gestionnaire_p").fadeOut(0100);
+        $(".projet_gestionnaire").find(".close").fadeOut("slow");
     })
 })
