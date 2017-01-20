@@ -12,6 +12,7 @@ body {
     margin: 0;
     background-image: url("ble.jpg");
     background-size: cover;
+    overflow: hidden;
 }
 
 strong {
@@ -42,6 +43,9 @@ button:hover {
     text-decoration: underline;
     transform: scale(1.2);
 }
+
+
+/*----------------PAGE D'ACCUEIL--------------*/
 
 #container {
     display: flex;
@@ -155,6 +159,7 @@ button:hover {
     margin-top: 2%;
     padding: 2%;
     border: 1px dotted grey;
+    border-radius: 2%;
 }
 
 .right_column div:hover {
