@@ -33,6 +33,10 @@ ul {
     list-style-type: circle;
 }
 
+li {
+    margin-top: 4%;
+}
+
 button {
     position: absolute;
     border: 1px solid grey;
@@ -192,16 +196,12 @@ button:hover {
 }
 
 .ul_skills {
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .more {
     right: 40%;
     bottom: 40%;
-}
-
-.skills .more {
-    bottom: 20%;
 }
 
 .close {
@@ -222,6 +222,11 @@ button:hover {
     list-style-type: circle;
 }
 
-.projet_gestionnaire .more {
+.right_column .more {
     bottom: 20%;
+}
+
+.blocPro .close,
+.right_column p {
+    color: white;
 }

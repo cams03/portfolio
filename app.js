@@ -28,6 +28,7 @@ $(document).ready(function () {
 
     $(".up_arrow").click(function () {
         $(".blocCV").fadeOut(0100);
+        $(".blocPro").fadeOut(0100);
         $(".rond").fadeIn(0300);
     })
 
@@ -85,7 +86,7 @@ $(document).ready(function () {
         $(".projet_xy").find(".more").fadeOut(0100);
         $(".xy_p").fadeIn("slow");
         $(".projet_xy").find(".close").fadeIn("slow");
-        $(".projey_xy").css("background-image", "url('espace.jpg')");
+        $(".projet_xy").css("background-image", "url(espace.jpg)");
     })
 
     $(".projet_xy").find(".close").click(function () {
@@ -93,12 +94,14 @@ $(document).ready(function () {
         $(".projet_xy").find(".more").fadeIn("slow");
         $(".xy_p").fadeOut(0100);
         $(".projet_xy").find(".close").fadeOut("slow");
+        $(".projet_xy").css("background-image", "none");
     })
     $(".projet_gestionnaire").find(".more").click(function () {
         $(".projet_gestionnaire").find(".title").fadeOut(0100);
         $(".projet_gestionnaire").find(".more").fadeOut(0100);
         $(".gestionnaire_p").fadeIn("slow");
         $(".projet_gestionnaire").find(".close").fadeIn("slow");
+        $(".projet_gestionnaire").css("background-image", "url(console.png)");
     })
 
     $(".projet_gestionnaire").find(".close").click(function () {
@@ -106,5 +109,6 @@ $(document).ready(function () {
         $(".projet_gestionnaire").find(".more").fadeIn("slow");
         $(".gestionnaire_p").fadeOut(0100);
         $(".projet_gestionnaire").find(".close").fadeOut("slow");
+        $(".projet_gestionnaire").css("background-image", "none");
     })
 })
