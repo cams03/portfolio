@@ -28,8 +28,8 @@ $(document).ready(function () {
         $(".rond").fadeIn(0300);
     })
 
-    $(".div_title").click(function () {
-        $(".div_title").fadeOut("slow");
-        $(".ul_formation").fadeIn(0100);
+    $(".formation").find(".title").click(function () {
+        $(".div_title").fadeOut(0100);
+        $(".ul_formation").fadeIn("slow");
     })
 })

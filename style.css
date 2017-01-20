@@ -142,9 +142,20 @@ strong {
     cursor: pointer;
 }
 
-.ul_formation {
+.right_column h3 {
+    font-weight: normal;
+}
+
+.right_column h3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.ul_formation,
+.ul_experience {
     display: none;
     font-family: "Always";
     text-align: center;
     font-size: 30px;
+    list-style-type: circle;
 }
