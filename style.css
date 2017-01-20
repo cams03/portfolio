@@ -152,10 +152,44 @@ strong {
 }
 
 .ul_formation,
-.ul_experience {
+.ul_exp {
     display: none;
     font-family: "Always";
-    text-align: center;
+    text-align: justify;
     font-size: 30px;
     list-style-type: circle;
+}
+
+.formation,
+.exp {
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+
+.more {
+    position: absolute;
+    right: 40%;
+    bottom: 40%;
+}
+
+button {
+    border: 1px solid grey;
+    border-radius: 7%;
+    box-shadow: 1px 1px 2px grey;
+    padding: 2%;
+    background: none;
+    cursor: pointer;
+    font-family: "Always";
+    font-size: 30px;
+}
+
+button:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
 }

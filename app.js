@@ -28,8 +28,31 @@ $(document).ready(function () {
         $(".rond").fadeIn(0300);
     })
 
-    $(".formation").find(".title").click(function () {
-        $(".div_title").fadeOut(0100);
+    $(".formation").find(".more").click(function () {
+        $(".formation").find(".title").fadeOut(0100);
+        $(".formation").find(".more").fadeOut(0100);
         $(".ul_formation").fadeIn("slow");
+        $(".formation").find(".close").fadeIn("slow");
     })
+    $(".formation").find(".close").click(function () {
+        $(".formation").find(".title").fadeIn("slow");
+        $(".formation").find(".more").fadeIn("slow");
+        $(".ul_formation").fadeOut(0100);
+        $(".formation").find(".close").fadeOut("slow");
+    })
+
+    $(".exp").find(".more").click(function () {
+        $(".exp").find(".title").fadeOut(0100);
+        $(".exp").find(".more").fadeOut(0100);
+        $(".ul_exp").fadeIn("slow");
+        $(".exp").find(".close").fadeIn("slow");
+    })
+
+    $(".exp").find(".close").click(function () {
+        $(".exp").find(".title").fadeIn("slow");
+        $(".exp").find(".more").fadeIn("slow");
+        $(".ul_exp").fadeOut(0100);
+        $(".exp").find(".close").fadeOut("slow");
+    })
+
 })
