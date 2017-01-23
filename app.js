@@ -87,7 +87,7 @@ $(document).ready(function () {
         $(".xy_p").fadeIn("slow");
         $(".projet_xy").find(".close").fadeIn("slow");
         $(".projet_xy").find("a").fadeIn("slow");
-        $(".projet_xy").css("background-image", "url(espace.jpg)");
+        $(".projet_xy").css("background-image", "url(img/espace.jpg)");
     })
 
     $(".projet_xy").find(".close").click(function () {
@@ -105,7 +105,7 @@ $(document).ready(function () {
         $(".gestionnaire_p").fadeIn("slow");
         $(".projet_gestionnaire").find(".close").fadeIn("slow");
         $(".projet_gestionnaire").find("a").fadeIn("slow");
-        $(".projet_gestionnaire").css("background-image", "url(console.png)");
+        $(".projet_gestionnaire").css("background-image", "url(img/console.png)");
     })
 
     $(".projet_gestionnaire").find(".close").click(function () {

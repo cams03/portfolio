@@ -1,23 +1,22 @@
 @font-face {
     font-family: "Mark my words";
-    src: url("mark_my_words.ttf");
+    src: url("fonts/mark_my_words.ttf");
 }
 
 @font-face {
     font-family: "Always";
-    src: url("always_forever_bold.ttf");
+    src: url("fonts/always_forever_bold.ttf");
 }
 
 @font-face {
     font-family: "Simplicity";
-    src: url("simplicity.ttf");
+    src: url("fonts/simplicity.ttf");
 }
 
 body {
     margin: 0;
-    background-image: url("ble.jpg");
+    background-image: url("img/ble.jpg");
     background-size: cover;
-    overflow: hidden;
 }
 
 strong {
@@ -61,7 +60,6 @@ button:hover {
 #container {
     display: flex;
     flex-direction: column;
-    border: 2px solid white;
     width: 100%;
     height: 100vh;
 }
@@ -128,7 +126,7 @@ button:hover {
 .bloc {
     display: none;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     background-color: white;
     opacity: 0.5;
 }
@@ -243,4 +241,20 @@ button:hover {
 .blocPro a:hover {
     transform: scale(1.1);
     text-decoration: underline;
+}
+
+
+/*-------------------SECTION CONTACT----------------*/
+
+.blocCo a {
+    border: none;
+    box-shadow: none;
+}
+
+.blocCo a:hover {
+    transform: scale(1.2);
+}
+
+.blocCo .right_column {
+    justify-content: space-between;
 }
