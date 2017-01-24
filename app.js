@@ -27,12 +27,13 @@ $(document).ready(function () {
     })
 
     $(".up_arrow").click(function () {
-        $(".blocCV").fadeOut(0100);
-        $(".blocPro").fadeOut(0100);
-        $(".rond").fadeIn(0300);
-    })
-
-    //Section FORMATION
+            $(".blocCV").fadeOut(0100);
+            $(".blocPro").fadeOut(0100);
+            $(".blocCo").fadeOut(0100);
+            $(".rond").fadeIn(0300);
+        })
+        //SECTION CV
+        //Section FORMATION
 
     $(".formation").find(".more").click(function () {
         $(".formation").find(".title").fadeOut(0100);
@@ -43,8 +44,8 @@ $(document).ready(function () {
     $(".formation").find(".close").click(function () {
         $(".formation").find(".title").fadeIn("slow");
         $(".formation").find(".more").fadeIn("slow");
-        $(".ul_formation").fadeOut(0100);
-        $(".formation").find(".close").fadeOut("slow");
+        $(".ul_formation").hide();
+        $(".formation").find(".close").hide();
     })
 
     //Section EXPERIENCE
@@ -59,8 +60,8 @@ $(document).ready(function () {
     $(".exp").find(".close").click(function () {
         $(".exp").find(".title").fadeIn("slow");
         $(".exp").find(".more").fadeIn("slow");
-        $(".ul_exp").fadeOut(0100);
-        $(".exp").find(".close").fadeOut("slow");
+        $(".ul_exp").hide();
+        $(".exp").find(".close").hide();
     })
 
     //Section COMPETENCES
@@ -75,30 +76,31 @@ $(document).ready(function () {
     $(".skills").find(".close").click(function () {
         $(".skills").find(".title").fadeIn("slow");
         $(".skills").find(".more").fadeIn("slow");
-        $(".ul_skills").fadeOut(0010);
-        $(".skills").find(".close").fadeOut("slow");
+        $(".ul_skills").hide();
+        $(".skills").find(".close").hide();
     })
 
     //SECTION PROJETS
 
     $(".projet_xy").find(".more").click(function () {
-        $(".projet_xy").find(".title").fadeOut(0100);
-        $(".projet_xy").find(".more").fadeOut(0100);
-        $(".xy_p").fadeIn("slow");
-        $(".projet_xy").find(".close").fadeIn("slow");
-        $(".projet_xy").find("a").fadeIn("slow");
-        $(".projet_xy").css("background-image", "url(img/espace.jpg)");
-    })
-
+            $(".projet_xy").find(".title").fadeOut(0100);
+            $(".projet_xy").find(".more").fadeOut(0100);
+            $(".xy_p").fadeIn("slow");
+            $(".projet_xy").find(".close").fadeIn("slow");
+            $(".projet_xy").find("a").fadeIn("slow");
+            $(".projet_xy").css("background-image", "url(img/espace.jpg)");
+        })
+        //Projet XY
     $(".projet_xy").find(".close").click(function () {
-        $(".projet_xy").find(".title").fadeIn("slow");
-        $(".projet_xy").find(".more").fadeIn("slow");
-        $(".xy_p").fadeOut(0100);
-        $(".projet_xy").find("a").fadeOut(0000);
+            $(".projet_xy").find(".title").fadeIn("slow");
+            $(".projet_xy").find(".more").fadeIn("slow");
+            $(".xy_p").hide();
+            $(".projet_xy").find("a").hide();
 
-        $(".projet_xy").find(".close").fadeOut("slow");
-        $(".projet_xy").css("background-image", "none");
-    })
+            $(".projet_xy").find(".close").hide();
+            $(".projet_xy").css("background-image", "none");
+        })
+        //Projet gestionnaire
     $(".projet_gestionnaire").find(".more").click(function () {
         $(".projet_gestionnaire").find(".title").fadeOut(0100);
         $(".projet_gestionnaire").find(".more").fadeOut(0100);
@@ -111,9 +113,9 @@ $(document).ready(function () {
     $(".projet_gestionnaire").find(".close").click(function () {
         $(".projet_gestionnaire").find(".title").fadeIn("slow");
         $(".projet_gestionnaire").find(".more").fadeIn("slow");
-        $(".gestionnaire_p").fadeOut(0100);
-        $(".projet_gestionnaire").find("a").fadeOut(0000);
-        $(".projet_gestionnaire").find(".close").fadeOut("slow");
+        $(".gestionnaire_p").hide();
+        $(".projet_gestionnaire").find("a").hide();
+        $(".projet_gestionnaire").find(".close").hide();
         $(".projet_gestionnaire").css("background-image", "none");
     })
 

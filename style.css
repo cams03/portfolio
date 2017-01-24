@@ -294,3 +294,12 @@ button:hover {
 .icon_section p {
     width: 30%;
 }
+
+
+/*----------------MED0IA QUERIES--------*/
+
+@media screen and (min-width:700px) and (max-width:1000) {
+    .right_column div {
+        height: 200px;
+    }
+}
