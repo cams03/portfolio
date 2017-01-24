@@ -116,4 +116,6 @@ $(document).ready(function () {
         $(".projet_gestionnaire").find(".close").fadeOut("slow");
         $(".projet_gestionnaire").css("background-image", "none");
     })
+
+
 })
