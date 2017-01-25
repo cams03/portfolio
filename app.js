@@ -55,12 +55,14 @@ $(document).ready(function () {
         $(".exp").find(".more").fadeOut(0100);
         $(".ul_exp").fadeIn("slow");
         $(".exp").find(".close").fadeIn("slow");
+
+
     })
 
     $(".exp").find(".close").click(function () {
         $(".exp").find(".title").fadeIn("slow");
         $(".exp").find(".more").fadeIn("slow");
-        $(".icon_skills").hide();
+        $(".ul_exp").hide();
         $(".exp").find(".close").hide();
     })
 
@@ -77,7 +79,7 @@ $(document).ready(function () {
     $(".skills").find(".close").click(function () {
         $(".skills").find(".title").fadeIn("slow");
         $(".skills").find(".more").fadeIn("slow");
-        $(".ul_skills").hide();
+        $(".icon_skills").hide();
         $(".skills").find(".close").hide();
     })
 
@@ -93,15 +95,16 @@ $(document).ready(function () {
         })
         //Projet XY
     $(".projet_xy").find(".close").click(function () {
-            $(".projet_xy").find(".title").fadeIn("slow");
-            $(".projet_xy").find(".more").fadeIn("slow");
-            $(".xy_p").hide();
-            $(".projet_xy").find("a").hide();
+        $(".projet_xy").find(".title").fadeIn("slow");
+        $(".projet_xy").find(".more").fadeIn("slow");
+        $(".xy_p").hide();
+        $(".projet_xy").find("a").hide();
 
-            $(".projet_xy").find(".close").hide();
-            $(".projet_xy").css("background-image", "none");
-        })
-        //Projet gestionnaire
+        $(".projet_xy").find(".close").hide();
+        $(".projet_xy").css("background-image", "none");
+    })
+
+    //Projet gestionnaire
     $(".projet_gestionnaire").find(".more").click(function () {
         $(".projet_gestionnaire").find(".title").fadeOut(0100);
         $(".projet_gestionnaire").find(".more").fadeOut(0100);
