@@ -74,6 +74,15 @@ $(document).ready(function () {
         $(".icon_skills").css("display", "flex");
         $(".icon_skills").fadeIn("slow");
         $(".skills").find(".close").fadeIn("slow");
+
+        function progress(percent, $element) {
+            var progressBarWidth = percent * $element.width() / 100;
+            $element.find('div').animate({
+                width: progressBarWidth
+            }, 500).html(percent + "% ");
+        }
+
+        progress(80, $('#progressBar'));
     })
 
     $(".skills").find(".close").click(function () {
