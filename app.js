@@ -60,7 +60,7 @@ $(document).ready(function () {
     $(".exp").find(".close").click(function () {
         $(".exp").find(".title").fadeIn("slow");
         $(".exp").find(".more").fadeIn("slow");
-        $(".ul_exp").hide();
+        $(".icon_skills").hide();
         $(".exp").find(".close").hide();
     })
 
@@ -69,7 +69,8 @@ $(document).ready(function () {
     $(".skills").find(".more").click(function () {
         $(".skills").find(".title").fadeOut(0100);
         $(".skills").find(".more").fadeOut(0100);
-        $(".ul_skills").fadeIn("slow");
+        $(".icon_skills").css("display", "flex");
+        $(".icon_skills").fadeIn("slow");
         $(".skills").find(".close").fadeIn("slow");
     })
 
