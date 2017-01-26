@@ -172,7 +172,11 @@ button:hover {
     border-radius: 2%;
 }
 
-.blocCV .right_column div:hover {
+.right_column .formation:hover,
+.right_column .exp:hover,
+.right_column .skills:hover,
+.right_column .projet_xy:hover,
+.right_column .projet_gestionnaire:hover {
     background-color: antiquewhite;
 }
 
@@ -214,25 +218,91 @@ button:hover {
     box-sizing: border-box;
 }
 
-#progressBar {
+.icon_skills .progressBar {
     position: absolute;
-    top: 70px;
-    left: 20px;
-    width: 50px;
-    height: 5px;
-    background-color: white;
+    width: 45px;
+    height: 9px;
+    background-color: transparent;
     border: none;
 }
 
-#progressBar div {
+.icon_skills .progressBarHtml {
+    top: 70px;
+    left: 28px;
+}
+
+.icon_skills .progressBarCss {
+    top: 70px;
+    left: 108px;
+}
+
+.icon_skills .progressBarJs {
+    width: 65px;
+    top: 69px;
+    left: 180px;
+}
+
+.icon_skills .progressBarJquery {
+    width: 60px;
+    top: 69px;
+    right: 105px;
+}
+
+.icon_skills .progressBarBs {
+    width: 65px;
+    top: 69px;
+    right: 18px;
+}
+
+.icon_skills .progressBarWp {
+    width: 60px;
+    bottom: 5px;
+    left: 144px;
+}
+
+.icon_skills .progressBarGit {
+    bottom: 5px;
+    right: 155px;
+}
+
+.icon_skills .progressBar div {
     height: 100%;
     color: white;
     font-weight: bold;
+    font-size: 12px;
     text-align: right;
-    line-height: 5px;
+    line-height: 9px;
     /* same as #progressBar height if we want text middle aligned */
     width: 0;
+    border: none;
+}
+
+.icon_skills .progressBarHtml div {
     background-color: #f16529;
+}
+
+.icon_skills .progressBarCss div {
+    background-color: #1572b6;
+}
+
+.icon_skills .progressBarJs div {
+    background-color: #f0db4f;
+}
+
+.icon_skills .progressBarJquery div {
+    background-color: #0868ac;
+}
+
+.icon_skills .progressBarBs div {
+    background-color: #5b4282;
+}
+
+.icon_skills .progressBarWp div {
+    background-color: #494949;
+}
+
+.icon_skills .progressBarGit div {
+    background-color: #181616;
 }
 
 .right_column .skills .more {

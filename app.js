@@ -68,21 +68,27 @@ $(document).ready(function () {
 
     //Section COMPETENCES
 
+    function progress(percent, $element) {
+        var progressBarWidth = percent * $element.width() / 100;
+        $element.find('div').animate({
+            width: progressBarWidth
+        }, 500).html(percent + "% ");
+    }
+
+
     $(".skills").find(".more").click(function () {
         $(".skills").find(".title").fadeOut(0100);
         $(".skills").find(".more").fadeOut(0100);
         $(".icon_skills").css("display", "flex");
         $(".icon_skills").fadeIn("slow");
         $(".skills").find(".close").fadeIn("slow");
-
-        function progress(percent, $element) {
-            var progressBarWidth = percent * $element.width() / 100;
-            $element.find('div').animate({
-                width: progressBarWidth
-            }, 500).html(percent + "% ");
-        }
-
-        progress(80, $('#progressBar'));
+        progress(80, $(".progressBarHtml"));
+        progress(80, $(".progressBarCss"));
+        progress(50, $(".progressBarJs"));
+        progress(60, $(".progressBarJquery"));
+        progress(40, $(".progressBarBs"));
+        progress(40, $(".progressBarWp"));
+        progress(80, $(".progressBarGit"));
     })
 
     $(".skills").find(".close").click(function () {
@@ -90,6 +96,13 @@ $(document).ready(function () {
         $(".skills").find(".more").fadeIn("slow");
         $(".icon_skills").hide();
         $(".skills").find(".close").hide();
+        progress(0, $(".progressBarHtml"));
+        progress(0, $(".progressBarCss"));
+        progress(0, $(".progressBarJs"));
+        progress(0, $(".progressBarJquery"));
+        progress(0, $(".progressBarBs"));
+        progress(0, $(".progressBarWp"));
+        progress(0, $(".progressBarGit"));
     })
 
     //SECTION PROJETS
