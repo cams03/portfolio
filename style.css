@@ -58,6 +58,22 @@ button:hover {
 
 /*----------------PAGE D'ACCUEIL--------------*/
 
+.flags {
+    width: 5%;
+    display: flex;
+}
+
+.flags a {
+    position: inherit;
+    border: none;
+    box-shadow: none;
+    padding: 5%;
+}
+
+.flags a:hover {
+    transform: scale(1.1);
+}
+
 #container {
     display: flex;
     flex-direction: column;
@@ -83,24 +99,36 @@ button:hover {
     text-align: center;
 }
 
-.container_rubriques,
-.container_arrow {
+.container_menu {
     display: flex;
+    width: 48%;
     margin: auto;
-    width: 52%;
+}
+
+.container_cv,
+.container_pro,
+.container_co {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 30%;
     box-sizing: border-box;
 }
 
-.container_rubriques div,
-.container_arrow div {
-    margin: auto;
+.container_co {
+    width: 35%;
+    text-align: center;
+}
+
+.cv,
+.projets,
+.contact,
+.arrow {
+    margin: 0 auto;
+    font-size: 40px;
     color: white;
     text-shadow: 1px 1px 2px black;
     font-family: "Mark my words";
-}
-
-.container_rubriques div {
-    font-size: 40px;
 }
 
 .arrow {
@@ -110,18 +138,6 @@ button:hover {
 .arrow:hover {
     transform: scale(1.4);
     cursor: pointer;
-}
-
-.cv {
-    width: 2%;
-}
-
-.projets {
-    width: 7%;
-}
-
-.contact {
-    width: 12%;
 }
 
 .bloc {
