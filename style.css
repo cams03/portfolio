@@ -445,6 +445,9 @@
       .arrow {
           font-size: 30px;
       }
+      .container_co {
+      width: 30%;
+  }
       .bloc {
           overflow: scroll;
           flex-direction: column;
