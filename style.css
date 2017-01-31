@@ -448,6 +448,7 @@
       .bloc {
           overflow: scroll;
           flex-direction: column;
+          height: 90vh;
       }
       ul, .blocPro .right_column  p {
           font-size: 15px;
