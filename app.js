@@ -18,7 +18,7 @@ $(document).ready(function () {
         $(".blocPro").css("display", "flex");
     })
 
-    $(".container_c0").click(function () {
+    $(".container_co").click(function () {
         $(".rond").fadeOut(0100);
         $(".blocCV").fadeOut(0300);
         $(".blocPro").fadeOut(0300);
