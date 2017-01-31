@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     //HOMEPAGE
 
-    $(".left_arrow").click(function () {
+    $(".container_cv").click(function () {
         $(".rond").fadeOut(0100);
         $(".blocPro").fadeOut(0300);
         $(".blocCo").fadeOut(0300);
@@ -10,7 +10,7 @@ $(document).ready(function () {
         $(".blocCV").css("display", "flex");
     })
 
-    $(".middle_arrow").click(function () {
+    $(".container_pro").click(function () {
         $(".rond").fadeOut(0100);
         $(".blocCV").fadeOut(0300);
         $(".blocCo").fadeOut(0300);
@@ -18,7 +18,7 @@ $(document).ready(function () {
         $(".blocPro").css("display", "flex");
     })
 
-    $(".right_arrow").click(function () {
+    $(".container_c0").click(function () {
         $(".rond").fadeOut(0100);
         $(".blocCV").fadeOut(0300);
         $(".blocPro").fadeOut(0300);

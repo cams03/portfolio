@@ -448,6 +448,9 @@
       .container_co {
       width: 30%;
   }
+      .arrow {
+          display: none;
+      }
       .bloc {
           overflow: scroll;
           flex-direction: column;
