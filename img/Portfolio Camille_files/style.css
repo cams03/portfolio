@@ -76,7 +76,7 @@
       display: flex;
       flex-direction: column;
       width: 100%;
-      height: 100vh;
+      height: 100%;
   }
   
   .rond {
@@ -101,7 +101,6 @@
       display: flex;
       width: 48%;
       margin: auto;
-      margin-top: 15px;
   }
   
   .container_cv,
@@ -225,12 +224,12 @@
       box-sizing: border-box;
   }
   
-  .skills .icon_skills .html_container,
-  .skills .icon_skills .css_container,
-  .skills .icon_skills .js_container,
-  .skills .icon_skills .jq_container,
-  .skills .icon_skills .bs_container,
-  .skills .icon_skills .git_container {
+  .html_container,
+  .css_container,
+  .js_container,
+  .jq_container,
+  .bs_container,
+  .git_container {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -384,27 +383,23 @@
       li {
           margin-top: 2%;
       }
-      #container {
-      height: 95vh;
-  }
       .rond{
           width: 40%;
           height: 500px;
       }
       .rond p {
-      font-size: 60px;
+      font-size: 50px;
      
   }
       strong {
-      font-size: 80px;
+      font-size: 70px;
   }
       
   .arrow {
-      padding-top: 0;
       font-size: 60px;
   }
       .bloc {
-          height: 80vh;
+          height: 100vh;
       }
       .left_column,
       .right_column {
@@ -423,19 +418,6 @@
           right: 40%;
           bottom: 5%;
       }
-      .blocCV .right_column .skills {
-      height: 210px;
-          padding: 5px;
-     
-  }
-      .blocCV .skills .icon_skills {
-      justify-content: center;
-      align-items: auto;
-      }
-      .blocCV .right_column .skills .icon_skills img {
-          width: 70px;
-          height: 70px;
-      } 
       .right_column .close,
       .right_column .more,
       .blocPro .right_column a {
@@ -463,14 +445,14 @@
           padding: 30%;
       }
       strong {
-          font-size: 45px;
+          font-size: 70px;
       }
       .rond {
           width: 80%;
-          height: 300px;
+          height: 350px;
       }
       .rond p {
-          font-size: 35px;
+          font-size: 30px;
       }
       .container_menu {
           width: 90%;
@@ -491,7 +473,6 @@
           overflow: scroll;
           flex-direction: column;
           height: 90vh;
-          width: 99.9%;
       }
       ul, .blocPro .right_column  p {
           font-size: 15px;
@@ -513,26 +494,19 @@
       }
       .title {
           font-size: 30px;
-          height: 50px;
-          margin-bottom: 0;
       }
-      .left_column .intro {
+      .intro {
           font-size: 20px;
           text-align: center;
-         margin-top: 0;
-          margin-bottom: 20px;
       }
       .right_column {
           margin: auto;
-           margin-top: 15px;
+       
           width: 95%;
-      }
-      .blocCV .right_column {
-          margin-top: 15px;
       }
       .right_column> div {
           width: 100%;
-          height: 210px;
+          height: 200px;
           margin-bottom: 2%;
       }
       .right_column .up_arrow {
@@ -542,6 +516,7 @@
       }
       
       .right_column .skills {
+          height: 220px;
           width: 100%;
           margin-bottom: 28%;
       }
