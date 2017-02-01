@@ -496,6 +496,10 @@
       ul, .blocPro .right_column  p {
           font-size: 15px;
       }
+        
+  li {
+      margin-top: 2%;
+  }
       .left_column {
           margin: auto;
           margin-top: 1%;
@@ -516,7 +520,7 @@
           height: 50px;
           margin-bottom: 0;
       }
-      .left_column .intro {
+      .intro {
           font-size: 20px;
           text-align: center;
          margin-top: 0;
