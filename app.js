@@ -1,4 +1,17 @@
 $(document).ready(function () {
+    
+    //GLOBAL
+    
+    $(".container_menu").click(function() {
+        $(".close").hide();
+        $("ul").hide();
+        $(".icon_skills").hide();
+        $(".blocPro").find(".right_column").find("p").hide();
+         $(".blocPro").find(".right_column").find("a").hide();
+        $(".blocPro").find(".right_column").find("div").css("background", "none");
+        $(".right_column").find(".title").fadeIn("slow");
+        $(".right_column").find(".more").fadeIn("slow");
+    })
 
     //HOMEPAGE
 
@@ -7,7 +20,7 @@ $(document).ready(function () {
         $(".blocPro").fadeOut(0300);
         $(".blocCo").fadeOut(0300);
         $(".blocCV").fadeIn("slow");
-        $(".blocCV").css("display", "flex");
+        $(".blocCV").css("display", "flex");     
     })
 
     $(".container_pro").click(function () {
