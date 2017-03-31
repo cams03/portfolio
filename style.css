@@ -1,4 +1,4 @@
-    @font-face {
+@font-face {
     font-family: "Mark my words";
     src: url("fonts/mark_my_words.ttf");
 }
@@ -17,7 +17,7 @@ body {
     margin: 0;
     background-image: url("img/ble2.jpg");
     background-size: cover;
-    
+    overflow: hidden;
 }
 
 strong {
@@ -178,6 +178,9 @@ button:hover {
     width: 75%;
     height: 80vh;
 }
+.right_column .title:hover {
+    transform: scale(1.2);
+}
 
 .right_column> div {
     width: 45%;
@@ -185,8 +188,7 @@ button:hover {
     position: relative;
     margin-top: 1%;
     padding: 2%;
-    border: 1px dotted grey;
-    border-radius: 2%;
+    
 }
 
 .right_column div:hover {
@@ -307,11 +309,6 @@ button:hover {
     font-size: 20px;
     list-style-type: circle;
 }
-
-.right_column> div:hover {
-    background-color: antiquewhite;
-}
-
 .right_column .more {
     bottom: 20%;
 }
@@ -382,7 +379,7 @@ button:hover {
 
 /*----------------MEDIA QUERIES--------*/
 
-@media screen and (min-width:1000px) and (max-width:1367px) {
+@media screen and (min-width:1000px) and (max-width:1370px) {
     ul {
         font-size: 17px;
     }
@@ -570,9 +567,9 @@ button:hover {
     .git_container {
         padding: 5px;
     }
-    .icon_skills .progressBar {
+    /*.icon_skills .progressBar {
         width: 50px;
-    }
+    }*/
     .blocPro .left_column {
         height: 200px;
     }
