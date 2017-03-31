@@ -178,9 +178,6 @@ button:hover {
     width: 75%;
     height: 80vh;
 }
-.right_column .title:hover {
-    transform: scale(1.2);
-}
 
 .right_column> div {
     width: 45%;
@@ -221,11 +218,9 @@ button:hover {
     width: 95%;
     height: 100%;
     justify-content: center;
-    align-items: auto;
     flex-wrap: wrap;
     border: none;
     box-sizing: border-box;
-    padding-right: 5%;
 }
 
 .skills .icon_skills .html_container,
@@ -238,6 +233,7 @@ button:hover {
     height: 90px;
     width: 80px;
     border: none;
+    padding-right: 3%;
 }
 
 /*.icon_skills .progressBar {
