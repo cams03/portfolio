@@ -17,7 +17,7 @@ body {
     margin: 0;
     background-image: url("img/ble2.jpg");
     background-size: cover;
-    overflow: hidden;
+    
 }
 
 strong {
@@ -189,7 +189,7 @@ button:hover {
     border-radius: 2%;
 }
 
-.right_column> div:hover {
+.right_column div:hover {
     background-color: antiquewhite;
 }
 
