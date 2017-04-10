@@ -185,7 +185,7 @@ button:hover {
     position: relative;
     margin-top: 1%;
     padding: 2%;
-    
+
 }
 
 .right_column div:hover {
@@ -346,6 +346,10 @@ button:hover {
     width: 80%;
     margin: auto;
     box-sizing: border-box;
+}
+
+.blocCo .right_column div:hover {
+    background-color: transparent;
 }
 
 .blocCo a {
