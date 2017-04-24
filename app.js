@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     //GLOBAL
-    
+
     $(".container_menu").click(function() {
         $(".close").hide();
         $("ul").hide();
@@ -20,7 +20,7 @@ $(document).ready(function () {
         $(".blocPro").fadeOut(0300);
         $(".blocCo").fadeOut(0300);
         $(".blocCV").fadeIn("slow");
-        $(".blocCV").css("display", "flex");     
+        $(".blocCV").css("display", "flex");
     })
 
     $(".container_pro").click(function () {
@@ -68,8 +68,6 @@ $(document).ready(function () {
         $(".exp").find(".more").fadeOut(0100);
         $(".ul_exp").fadeIn("slow");
         $(".exp").find(".close").fadeIn("slow");
-
-
     })
 
     $(".exp").find(".close").click(function () {
@@ -87,7 +85,6 @@ $(document).ready(function () {
             width: progressBarWidth
         }, 500).html(percent + "% ");
     }*/
-
 
     $(".skills").find(".more").click(function () {
         $(".skills").find(".title").fadeOut(0100);
@@ -156,6 +153,25 @@ $(document).ready(function () {
         $(".projet_gestionnaire").find("a").hide();
         $(".projet_gestionnaire").find(".close").hide();
         $(".projet_gestionnaire").css("background-image", "none");
+    })
+
+    //Projet LE RAVI
+    $(".projet_leravi").find(".more").click(function () {
+        $(".projet_leravi").find(".title").fadeOut(0100);
+        $(".projet_leravi").find(".more").fadeOut(0100);
+        $(".leravi_p").fadeIn("slow");
+        $(".projet_leravi").find(".close").fadeIn("slow");
+        $(".projet_leravi").find("a").fadeIn("slow");
+        $(".projet_leravi").css("background-image", "url(img/leravi.jpg)");
+    })
+
+    $(".projet_leravi").find(".close").click(function () {
+        $(".projet_leravi").find(".title").fadeIn("slow");
+        $(".projet_leravi").find(".more").fadeIn("slow");
+        $("leravi_p").hide();
+        $(".projet_leravi").find("a").hide();
+        $(".projet_leravi").find(".close").hide();
+        $(".projet_leravi").css("background-image", "none");
     })
 
 
