@@ -168,7 +168,7 @@ $(document).ready(function () {
     $(".projet_leravi").find(".close").click(function () {
         $(".projet_leravi").find(".title").fadeIn("slow");
         $(".projet_leravi").find(".more").fadeIn("slow");
-        $("leravi_p").hide();
+        $(".leravi_p").hide();
         $(".projet_leravi").find("a").hide();
         $(".projet_leravi").find(".close").hide();
         $(".projet_leravi").css("background-image", "none");
