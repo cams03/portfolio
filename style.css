@@ -189,7 +189,7 @@ button:hover {text-decoration: none; transform: scale(1.1);
     padding-right: 3%;
 }
 
-/*.icon_skills .progressBar {
+.icon_skills .progressBar {
     padding: 5px;
     width: 60px;
     height: 15px;
@@ -234,7 +234,7 @@ button:hover {text-decoration: none; transform: scale(1.1);
 
 .icon_skills .progressBarGit div {
     background-color: #181616;
-}*/
+}
 
 .right_column div .more {bottom: 10%;right: 40%;}
 .close {right: 2%; bottom: 2%; display: none;}
