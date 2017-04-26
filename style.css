@@ -118,6 +118,12 @@ button:hover {text-decoration: none; transform: scale(1.1);
     height: 60vh;
     padding: 2%;
 }
+.left_column .cv_download {
+  position: relative;
+  color: #7c5f51;
+  text-decoration: none;
+  font-weight: bold;
+}
 .title {
     font-family: "Mark my words";
     text-align: center;
@@ -174,6 +180,7 @@ button:hover {text-decoration: none; transform: scale(1.1);
 .skills .icon_skills .js_container,
 .skills .icon_skills .jq_container,
 .skills .icon_skills .bs_container,
+.skill .icon_skills .wp_container,
 .skills .icon_skills .git_container {
     display: flex;
     height: 90px;
