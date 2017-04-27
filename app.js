@@ -79,12 +79,12 @@ $(document).ready(function () {
 
     //Section COMPETENCES
 
-    function progress(percent, $element) {
+    /*function progress(percent, $element) {
         var progressBarWidth = percent * $element.width() / 100;
         $element.find('div').animate({
             width: progressBarWidth
         }, 500).html(percent + "% ");
-    }
+    }*/
 
     $(".skills").find(".more").click(function () {
         $(".skills").find(".title").fadeOut(0100);
@@ -98,7 +98,7 @@ $(document).ready(function () {
         progress(60, $(".progressBarJquery"));
         progress(40, $(".progressBarBs"));
         progress(40, $(".progressBarWp"));
-        progress(80, $(".progressBarGit"));*/
+        progress(80, $(".progressBarGit"));
     })
 
     $(".skills").find(".close").click(function () {
