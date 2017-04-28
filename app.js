@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function() {
 
     //GLOBAL
 
@@ -15,7 +15,7 @@ $(document).ready(function () {
 
     //HOMEPAGE
 
-    $(".container_cv").click(function () {
+    $(".container_cv").click(function() {
         $(".rond").fadeOut(0100);
         $(".blocPro").fadeOut(0300);
         $(".blocCo").fadeOut(0300);
@@ -23,7 +23,7 @@ $(document).ready(function () {
         $(".blocCV").css("display", "flex");
     })
 
-    $(".container_pro").click(function () {
+    $(".container_pro").click(function() {
         $(".rond").fadeOut(0100);
         $(".blocCV").fadeOut(0300);
         $(".blocCo").fadeOut(0300);
@@ -31,7 +31,7 @@ $(document).ready(function () {
         $(".blocPro").css("display", "flex");
     })
 
-    $(".container_co").click(function () {
+    $(".container_co").click(function() {
         $(".rond").fadeOut(0100);
         $(".blocCV").fadeOut(0300);
         $(".blocPro").fadeOut(0300);
@@ -39,22 +39,22 @@ $(document).ready(function () {
         $(".blocCo").css("display", "flex");
     })
 
-    $(".up_arrow").click(function () {
-            $(".blocCV").fadeOut(0100);
-            $(".blocPro").fadeOut(0100);
-            $(".blocCo").fadeOut(0100);
-            $(".rond").fadeIn(0300);
-        })
-        //SECTION CV
-        //Section FORMATION
+    $(".up_arrow").click(function() {
+        $(".blocCV").fadeOut(0100);
+        $(".blocPro").fadeOut(0100);
+        $(".blocCo").fadeOut(0100);
+        $(".rond").fadeIn(0300);
+    })
+    //SECTION CV
+    //Section FORMATION
 
-    $(".formation").find(".more").click(function () {
+    $(".formation").find(".more").click(function() {
         $(".formation").find(".title").fadeOut(0100);
         $(".formation").find(".more").fadeOut(0100);
         $(".ul_formation").fadeIn("slow");
         $(".formation").find(".close").fadeIn("slow");
     })
-    $(".formation").find(".close").click(function () {
+    $(".formation").find(".close").click(function() {
         $(".formation").find(".title").fadeIn("slow");
         $(".formation").find(".more").fadeIn("slow");
         $(".ul_formation").hide();
@@ -63,14 +63,14 @@ $(document).ready(function () {
 
     //Section EXPERIENCE
 
-    $(".exp").find(".more").click(function () {
+    $(".exp").find(".more").click(function() {
         $(".exp").find(".title").fadeOut(0100);
         $(".exp").find(".more").fadeOut(0100);
         $(".ul_exp").fadeIn("slow");
         $(".exp").find(".close").fadeIn("slow");
     })
 
-    $(".exp").find(".close").click(function () {
+    $(".exp").find(".close").click(function() {
         $(".exp").find(".title").fadeIn("slow");
         $(".exp").find(".more").fadeIn("slow");
         $(".ul_exp").hide();
@@ -86,7 +86,7 @@ $(document).ready(function () {
         }, 500).html(percent + "% ");
     }*/
 
-    $(".skills").find(".more").click(function () {
+    $(".skills").find(".more").click(function() {
         $(".skills").find(".title").fadeOut(0100);
         $(".skills").find(".more").fadeOut(0100);
         $(".icon_skills").css("display", "flex");
@@ -101,7 +101,7 @@ $(document).ready(function () {
         progress(80, $(".progressBarGit"));
     })
 
-    $(".skills").find(".close").click(function () {
+    $(".skills").find(".close").click(function() {
         $(".skills").find(".title").fadeIn("slow");
         $(".skills").find(".more").fadeIn("slow");
         $(".icon_skills").hide();
@@ -117,16 +117,16 @@ $(document).ready(function () {
 
     //SECTION PROJETS
 
-    $(".projet_xy").find(".more").click(function () {
-            $(".projet_xy").find(".title").fadeOut(0100);
-            $(".projet_xy").find(".more").fadeOut(0100);
-            $(".xy_p").fadeIn("slow");
-            $(".projet_xy").find(".close").fadeIn("slow");
-            $(".projet_xy").find("a").fadeIn("slow");
-            $(".projet_xy").css("background-image", "url(img/espace.jpg)");
-        })
-        //Projet XY
-    $(".projet_xy").find(".close").click(function () {
+    $(".projet_xy").find(".more").click(function() {
+        $(".projet_xy").find(".title").fadeOut(0100);
+        $(".projet_xy").find(".more").fadeOut(0100);
+        $(".xy_p").fadeIn("slow");
+        $(".projet_xy").find(".close").fadeIn("slow");
+        $(".projet_xy").find("a").fadeIn("slow");
+        $(".projet_xy").css("background-image", "url(img/espace.jpg)");
+    })
+    //Projet XY
+    $(".projet_xy").find(".close").click(function() {
         $(".projet_xy").find(".title").fadeIn("slow");
         $(".projet_xy").find(".more").fadeIn("slow");
         $(".xy_p").hide();
@@ -137,7 +137,7 @@ $(document).ready(function () {
     })
 
     //Projet gestionnaire
-    $(".projet_gestionnaire").find(".more").click(function () {
+    $(".projet_gestionnaire").find(".more").click(function() {
         $(".projet_gestionnaire").find(".title").fadeOut(0100);
         $(".projet_gestionnaire").find(".more").fadeOut(0100);
         $(".gestionnaire_p").fadeIn("slow");
@@ -146,7 +146,7 @@ $(document).ready(function () {
         $(".projet_gestionnaire").css("background-image", "url(img/console.png)");
     })
 
-    $(".projet_gestionnaire").find(".close").click(function () {
+    $(".projet_gestionnaire").find(".close").click(function() {
         $(".projet_gestionnaire").find(".title").fadeIn("slow");
         $(".projet_gestionnaire").find(".more").fadeIn("slow");
         $(".gestionnaire_p").hide();
@@ -156,7 +156,7 @@ $(document).ready(function () {
     })
 
     //Projet LE RAVI
-    $(".projet_leravi").find(".more").click(function () {
+    $(".projet_leravi").find(".more").click(function() {
         $(".projet_leravi").find(".title").fadeOut(0100);
         $(".projet_leravi").find(".more").fadeOut(0100);
         $(".leravi_p").fadeIn("slow");
@@ -165,7 +165,7 @@ $(document).ready(function () {
         $(".projet_leravi").css("background-image", "url(img/leravi.jpg)");
     })
 
-    $(".projet_leravi").find(".close").click(function () {
+    $(".projet_leravi").find(".close").click(function() {
         $(".projet_leravi").find(".title").fadeIn("slow");
         $(".projet_leravi").find(".more").fadeIn("slow");
         $(".leravi_p").hide();
@@ -173,6 +173,5 @@ $(document).ready(function () {
         $(".projet_leravi").find(".close").hide();
         $(".projet_leravi").css("background-image", "none");
     })
-
 
 })
